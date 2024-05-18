@@ -1,8 +1,8 @@
 # 4D-Rotor Gaussian Splatting: Towards Efficieant Novel View Synthesis for Dynamic Scenes
 
-## Proc. SIGGRAPH 2024
+### Proc. SIGGRAPH 2024
 
-### [arXiv Paper](https://arxiv.org/abs/2402.03307)
+#### [arXiv Paper](https://arxiv.org/abs/2402.03307) | [Project Page]
 ---
 Our method converges very quickly and achieves real-time rendering speed.
 <p align="center">
@@ -95,7 +95,7 @@ One exception is for `flame_salmon` in N3V Dataset, run
 ns-train splatfacto-big --data $data_root$/N3V/flame_salmon --pipeline.model.path $data_root$/N3V/flame_salmon --max_num_iterations 16000
 ```
 
-## 3、Rendering and Evaluation
+## 4. Rendering and Evaluation
 
 ### Render testing images 
 Run the following command to render the images.  
