@@ -2,12 +2,12 @@
 
 ### Proc. SIGGRAPH 2024
 
-#### [arXiv Paper](https://arxiv.org/abs/2402.03307) | [Project Page]()
+#### | Project Page | [arXiv Paper](https://arxiv.org/abs/2402.03307) | 
 ---
 Our method converges very quickly and achieves real-time rendering speed.
 <p align="center">
-    <img width="400" alt="image" src="assets/flamesteak.gif">
-    <img width="400" alt="image" src="assets/plot.png">
+    <img width="430" alt="image" src="assets/flamesteak.gif">
+    <img width="370" alt="image" src="assets/plot.png">
 </p>
 The following are the results of our method on the D-NeRF dataset.
 <p align="center">
@@ -71,11 +71,10 @@ cd ../knn_ops_3_fwd_bwd_mask; pip install .
 If you have successfully reached here, you are ready to run the code! 
 
 
-## 2. Dataset Preparation:
-### For synthetic scenes from D-NeRF Dataset:
+## 2. Dataset Preparation
+### Synthetic scenes from D-NeRF Dataset:
 The dataset provided in [D-NeRF](https://github.com/albertpumarola/D-NeRF) is used. You can download the dataset from [dropbox](https://www.dropbox.com/s/0bf6fl0ye2vz3vr/data.zip?dl=0) at `$data_root$/dnerf`.
-### For real dynamic scenes from N3V Dataset (also called Plenoptic Video
-Dataset in our paper):
+### Realistic scenes from N3V Dataset (i.e. Plenoptic Video Dataset in our paper):
 Download the [Neural 3D Video dataset](https://github.com/facebookresearch/Neural_3D_Video) and preprocess the raw video by executing:
 ```
 python scripts/n3v2blender.py $data_root$/N3V/$scene_name$
