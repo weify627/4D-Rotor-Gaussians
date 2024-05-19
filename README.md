@@ -103,7 +103,7 @@ ns-render dataset --load_config $path_to_your_experiment$/config.yml --output-pa
 ```
 If you followed all the previous steps, `$path_to_your_experiment$` should look
 something like `outputs/bouncing_balls/splatfacto/2024-XX-XX_XXXXXX`.
-### Evaluation
+### Calculating testing PSNR
 ```bash
 python scripts/metrics.py $path_to_your_experiment$/test
 ```
