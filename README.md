@@ -108,7 +108,15 @@ something like `outputs/bouncing_balls/splatfacto/2024-XX-XX_XXXXXX`.
 python scripts/metrics.py $path_to_your_experiment$/test
 ```
 
-# Citation
+## Implementation
+
+This repository contains our PyTorch implementation to support related
+research. The FPS reported in the paper is measured using our highly optimized
+CUDA framework, which we plan to commercialize and are not releasing at this
+time. For inquiries regarding the CUDA-based implementation, please contact
+Yuanxing Duan at mjdyx@pku.edu.cn.
+
+## Citation
 
 The codebase is based on [Nerfstudio](https://github.com/nerfstudio-project/nerfstudio).
 
