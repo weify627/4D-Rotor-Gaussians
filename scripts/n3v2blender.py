@@ -265,7 +265,7 @@ if __name__ == '__main__':
 
         do_system(f"ffmpeg -i {video} -t 10 -start_number 0 {images_path}/{cam_name}_%04d.png")
     filenames = os.listdir(images_path)
-    filesnames.sort()
+    filenames.sort()
     for filename in filenames:
         if filename.endswith(".png"):
             full_path = os.path.join(images_path, filename)
