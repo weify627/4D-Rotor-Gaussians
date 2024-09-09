@@ -120,8 +120,8 @@ class Cameras(TensorDataclass):
         ] = CameraType.PERSPECTIVE,
         times: Optional[Float[Tensor, "num_cameras"]] = None,
         metadata: Optional[Dict] = None,
-        camera_extent : Optional[Float[Tensor, "num_cameras"]] = None,
-        batch_size:Optional[Int] = 1
+        camera_extent: Optional[Float[Tensor, "num_cameras"]] = torch.tensor(1.0), 
+        batch_size: Optional[Int[Tensor, "num_cameras 1"]] = None  
     ) -> None:
         """Initializes the Cameras object.
 
@@ -287,7 +287,7 @@ class Cameras(TensorDataclass):
             if batch_size.ndim == 0 or batch_size.shape[-1] != 1:
                 batch_size = batch_size.unsqueeze(-1).to(self.device)
         else:
-            raise ValueError(f"camera_extent must be None or a tensor, got {type(camera_extent)}")
+            raise ValueError(f"batch_size must be None or a tensor, got {type(batch_size)}")
 
         return batch_size
 
