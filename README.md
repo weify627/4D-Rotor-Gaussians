@@ -2,7 +2,7 @@
 
 ### Proc. SIGGRAPH 2024
 
-#### | Project Page | [arXiv Paper](https://arxiv.org/abs/2402.03307) | 
+#### | [Project Page](https://weify627.github.io/4drotorgs/) | [arXiv Paper](https://arxiv.org/abs/2402.03307) | 
 ---
 Our method converges very quickly and achieves real-time rendering speed.
 <p align="center">
