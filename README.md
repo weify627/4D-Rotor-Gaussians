@@ -1,4 +1,4 @@
-# 4D-Rotor Gaussian Splatting: Towards Efficieant Novel View Synthesis for Dynamic Scenes
+# 4D-Rotor Gaussian Splatting: Towards Efficient Novel View Synthesis for Dynamic Scenes
 
 ### Proc. SIGGRAPH 2024
 
